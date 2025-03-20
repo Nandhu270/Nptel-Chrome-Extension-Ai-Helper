@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "AI Automated Question Answering",
+  "version": "0.1",
+  "author": "API Assassins",
+  "description": "An Automated AI Extension with Automated Question Answering and With a Bookmark Feature",
+  "permissions": ["storage", "tabs", "scripting","activeTab"],
+  "host_permissions": [
+    "https://onlinecourses.nptel.ac.in/*",
+    "https://nptel.ac.in/*",
+    "https://swayam.gov.in/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://onlinecourses.nptel.ac.in/*",
+        "https://nptel.ac.in/*",
+        "https://swayam.gov.in/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/delete.png",
+        "assets/play.png",
+        "assets/edit.png",
+        "assets/save.png",
+        "assets/camera.png"
+      ],
+      "matches": [
+        "https://onlinecourses.nptel.ac.in/*",
+        "https://nptel.ac.in/*",
+        "https://swayam.gov.in/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icon.png",
+      "24": "assets/icon.png",
+      "32": "assets/icon.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "AI Bookmark"
+  }
+}
