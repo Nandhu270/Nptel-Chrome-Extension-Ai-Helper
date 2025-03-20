@@ -64,6 +64,12 @@ Nptel-Chrome-Extension-Ai-Helper is a Chrome extension designed to enhance the l
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+## Demo Video :
+
+https://drive.google.com/file/d/1znDCr5wz8tGWT19-wcll6YLgu5rbxdbW/view?usp=sharing
+
+https://github.com/user-attachments/assets/0c2c688e-b8a7-4854-8155-0967f972c0e8
+
 ## Output
 
 ![Chatbot](https://github.com/user-attachments/assets/6b48edac-2bac-42c7-82bc-c2924e524c82)
@@ -75,3 +81,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ![Bookmark Popup](https://github.com/user-attachments/assets/bbe868c9-1619-40f3-a1df-e189c47ec28b)
 
 ![Bookmark and Chatbot Button](https://github.com/user-attachments/assets/aa6b16c1-f142-4f0a-92fa-5f6c20637af8)
+
