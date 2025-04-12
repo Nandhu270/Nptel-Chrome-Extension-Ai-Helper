@@ -1,5 +1,5 @@
-const api1="AIzaSyBCngnMnnyo_Q3lzgk4QoaO5fLERw9ezMw";
-const api2="AIzaSyA2UrPtSxvlQqWnzgd9nVlgQ2wSRLnnIDI";
+const api1="";
+const api2="";
 const GEMINI_API_KEY = api2;
 
 let chatHistory = [
